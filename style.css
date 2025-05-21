@@ -59,7 +59,7 @@ footer > p{
 }
 
 /* Project-list (Centring our div's)*/
-.project-list{
+.Project-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,7 +69,6 @@ footer > p{
 .project-card {
     background-color: rgba(247, 243, 243, 0.678);
     border-left: 4px solid olivedrab;
-    margin: 15px;
     padding: 15px;
     border-radius: 8px;
     width: 250px;
