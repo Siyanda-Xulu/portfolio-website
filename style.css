@@ -34,3 +34,106 @@ footer{
     background-color: black;
     color: white;
 }
+
+.social-links{  
+    margin-top: 10px;
+}
+
+.social-links > a{
+    margin: 0px 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links > a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    color: olivedrab;
+}
+
+footer > p{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Project-list (Centring our div's)*/
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: rgba(247, 243, 243, 0.678);
+    border-left: 4px solid olivedrab;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: o 2px 5px rgba(0, 0, 0, 0.113);
+    transition: transform 0.2s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+}
+
+.project-card h3{
+    margin-top: 0;
+    color: rgb(5, 106, 5);
+}
+
+.project-card > p{
+    font-size: 14px;
+    color: black;
+}
+
+.project-card > a{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: black;
+    color: whitesmoke;
+    border: none   ;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card > a:hover{
+    background-color: olivedrab;
+    color: black;
+}
+
+nav {
+    background: rgb(245, 245, 245);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.navbar > li > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar > li > a:hover{
+    background-color: olivedrab;
+    color: rgb(245, 245, 245)
+}
